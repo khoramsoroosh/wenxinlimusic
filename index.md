@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Wenxin Li 
+title: Wenxin Li <br /> <h2>Composer and Educator</h2> 
 mode: immersive
 header:
   theme: dark
