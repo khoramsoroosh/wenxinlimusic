@@ -6,10 +6,26 @@ header:
   theme: dark
 article_header:
   type: overlay
+  theme: dark
+  background_color: '#203028'
   background_image:
+    gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
     src: assets/images/IMG_0403_edit.JPG
 ---
 
+<!--
+---
+layout: article
+title: Wenxin Li 
+mode: immersive
+header:
+  theme: dark
+article_header:
+  type: cover
+  image:
+    src: assets/images/IMG_0403_edit.JPG
+---
+-->
 # About Me
 Wenxin Li is a Lecturer of Composition & Technology at the University of Wisconsin-Milwaukee where she teaches Composition, Aural Theory, Orchestration, and Computer Music.
 
