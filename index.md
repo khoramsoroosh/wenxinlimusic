@@ -11,7 +11,6 @@ article_header:
 ---
 
 # Wenxin Li
-## Composer and Educator
 
 Wenxin Li is a Lecturer of Composition & Technology at the University of Wisconsin-Milwaukee where she teaches Composition, Aural Theory, Orchestration, and Computer Music.
 
