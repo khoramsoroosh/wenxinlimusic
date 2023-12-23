@@ -7,7 +7,7 @@ header:
 article_header:
   type: overlay
   background_image:
-    src: assets/images/IMG_0403_edit.png
+    src: assets/images/IMG_0403_edit.JPG
 ---
 
 # Wenxin Li
