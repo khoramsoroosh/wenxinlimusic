@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Wind Whistle 
-cover: assets/thumbnails/red_note2.png
+cover: assets/thumbnails/red_note.jpeg
 show_subscribe: false
 license: false
 show_edit_on_github: false
