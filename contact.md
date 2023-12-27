@@ -7,7 +7,7 @@ title: Contact
 
 
 ## Get in touch!
-<i class="fa-solid fa-envelope"></i> <a href="mailto:wli346@outlook.com" style="color:#000000;">wli346@outlook.com</a> <br />
+<i class="fa-solid fa-envelope"></i> <a href="mailto:wenxinlimusic@gmail.com" style="color:#000000;">wenxinlimusic@gmail.com</a> <br />
 <i class="fa-solid fa-graduation-cap"></i> <a href="https://uwm.edu/arts/directory/li-wenxin/" style="color:#000000;">University of Wisconsin-Milwaukee</a> <br />
 
 ## Follow me
