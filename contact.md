@@ -3,7 +3,7 @@ layout: article
 title: Contact 
 ---
 
-![TeXt Theme](assets/images/IMG_0634_edit.JPG)
+![TeXt Theme](assets/images/profile_picture.JPG)
 
 
 ## Get in touch!
