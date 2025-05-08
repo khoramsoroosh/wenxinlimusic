@@ -5,6 +5,8 @@ cover: assets/thumbnails/midwest_composers_symposium_edit.png
 show_subscribe: false
 license: false
 show_edit_on_github: false
+tags: electronic
+instrumentation: tuba and live electronics
 ---
 
 

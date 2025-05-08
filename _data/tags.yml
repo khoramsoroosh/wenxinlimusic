@@ -1,0 +1,15 @@
+order:
+  - Show All
+  - orchestra
+  - chamber
+  - choir
+  - solo
+  - electronic
+
+display:
+  Show All: "Show All"
+  orchestra: Orchestra and Wind Ensemble
+  chamber: Chamber
+  choir: Choir / Art Songs
+  solo: Solo
+  electronic: Electronic

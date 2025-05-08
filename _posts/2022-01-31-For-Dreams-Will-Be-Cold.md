@@ -5,6 +5,8 @@ cover: assets/thumbnails/score_follower.jpeg
 show_subscribe: false
 license: false
 show_edit_on_github: false
+tags: chamber
+instrumentation: flute, clarinet, 2 violin, viola, cello and piano
 ---
 
 <div>{%- include extensions/youtube.html id='f9YyfS3NZGk' -%}</div>

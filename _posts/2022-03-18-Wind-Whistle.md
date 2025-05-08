@@ -5,6 +5,8 @@ cover: assets/thumbnails/red_note.jpeg
 show_subscribe: false
 license: false
 show_edit_on_github: false
+tags: chamber
+instrumentation: saxophone quartet
 ---
 
 <div>{%- include extensions/youtube.html id='wX62G13sVV4' -%}</div>

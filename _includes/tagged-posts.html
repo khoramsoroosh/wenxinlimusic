@@ -1,0 +1,78 @@
+{%- assign tags = site.tags | sort -%}
+
+<!-- Tag Filter Bar -->
+<div class="tag-filter-bar">
+  <ul class="tag-filter-list">
+    {%- assign tag_order = site.data.tags.order -%}
+    {%- assign tag_display = site.data.tags.display -%}
+    {%- for tag in tag_order -%}
+      <li>
+        <a href="#" class="tag-filter-link" data-filter="{{ tag | slugify }}">
+          {{ tag_display[tag] }}
+        </a>
+      </li>
+    {%- endfor -%}
+  </ul>
+</div>
+
+<!-- Posts Grouped by Tag -->
+<div class="tags-page">
+  {%- assign tag_posts = site.tags -%}
+  {%- assign tag_order = site.data.tags.order -%}
+  {%- assign tag_display = site.data.tags.display -%}
+  
+  {%- for tag_key in tag_order -%}
+    {%- assign posts = tag_posts[tag_key] -%}
+    {%- if posts -%}
+      <section class="tag-section" id="{{ tag_key | slugify }}">
+        <h2 class="tag-title">{{ tag_display[tag_key] }}</h2>
+        <ul class="items">
+          {%- assign posts = posts | sort: 'date' | reverse -%}
+          {%- for post in posts -%}
+            <li class="item" itemscope itemtype="http://schema.org/BlogPosting" data-tags="{{ tag_key }}">
+              <div class="item__content">
+                <a itemprop="headline" class="item__header" href="{{ post.url | relative_url }}">
+                    {{ post.title }}
+                    {%- if post.instrumentation -%}
+                    <span class="instrumentation"> for {{ post.instrumentation }}</span>
+                    {%- endif -%}
+                </a>
+              </div>
+            </li>
+          {%- endfor -%}
+        </ul>
+      </section>
+    {%- endif -%}
+  {%- endfor -%}
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const filterLinks = document.querySelectorAll(".tag-filter-link");
+  const sections = document.querySelectorAll(".tag-section");
+
+  filterLinks.forEach(link => {
+    link.addEventListener("click", e => {
+      e.preventDefault();
+      const filter = link.dataset.filter;
+
+      // Remove active state
+      filterLinks.forEach(l => l.classList.remove("active"));
+      link.classList.add("active");
+
+      // Filter sections
+      sections.forEach(section => {
+        if (filter === "show-all" || section.id === filter) {
+          section.style.display = "";
+        } else {
+          section.style.display = "none";
+        }
+      });
+    });
+  });
+
+  // Show all by default
+  document.querySelector('.tag-filter-link[data-filter="show-all"]')?.click();
+});
+</script>
+

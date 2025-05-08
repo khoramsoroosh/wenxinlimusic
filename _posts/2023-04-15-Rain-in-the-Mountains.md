@@ -5,6 +5,8 @@ cover: assets/thumbnails/blossoming_forth_edit.png
 show_subscribe: false
 license: false
 show_edit_on_github: false
+tags: choir
+instrumentation: a cappella chorus
 ---
 
 <div>{%- include extensions/soundcloud.html id='1538027740' -%}</div>

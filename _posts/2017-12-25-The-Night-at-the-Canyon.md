@@ -5,6 +5,8 @@ cover: assets/thumbnails/midwest_composers_symposium_edit.png
 show_subscribe: false
 license: false
 show_edit_on_github: false
+tags: chamber
+instrumentation: percussion quartet 
 ---
 
 <div>{%- include extensions/soundcloud.html id='374442233' -%}</div>
