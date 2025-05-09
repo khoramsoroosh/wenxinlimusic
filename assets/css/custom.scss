@@ -60,3 +60,37 @@
   font-style: italic; // optional
   font-size: 1.0em;  // optional
 }
+
+ul.piece-info-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  line-height: 1.5; /* Reduced from 1.6 to 1.3 */
+}
+
+ul.piece-info-list > li {
+  margin-bottom: 0.4em; /* Slightly tighter spacing between items */
+  position: relative;
+}
+
+.piece-info-items {
+  margin-left: 1em;
+  padding-top: 0.2em;
+  color: #555;
+  font-size: 0.95em;
+  line-height: 1.5; /* Slightly tighter in description */
+}
+
+.program-notes {
+  margin-left: 1em;
+  padding-top: 0.2em;
+  color: #555;
+  font-size: 0.95em;
+  line-height: 1.5;
+  text-indent: 1.5em; /* First line indentation */
+}
+
+.program-notes p {
+  margin: 0 0 1.4em 0;               /* Remove vertical spacing between paragraphs */
+  text-indent: 1.5em;      /* Indent the first line */
+  line-height: 1.4;
+}

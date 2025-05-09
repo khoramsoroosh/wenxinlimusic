@@ -3,7 +3,7 @@ header:
     url: /index.html
 
   - title: My Works
-    url: /works.html
+    url: /tags/
 
   - title: Contact
     url: /contact.html
