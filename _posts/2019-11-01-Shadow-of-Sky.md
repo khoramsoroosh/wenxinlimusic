@@ -12,7 +12,7 @@ permalink: /shadow-of-sky/
 
 <ul class="piece-info-list">
   <li>
-    Duration: Duration: 8 minutes
+    Duration: 8 minutes
   </li>
   <li>
     Written for and premiered by David Mercedes
