@@ -9,7 +9,7 @@
     // "skins/dark",
     // "skins/default",
     // "skins/forest",
-    // "skins/ocean",
+    "skins/ocean",
     // "skins/orange",
 
     "skins/highlight/{{ site.highlight_theme | default: site.data.variables.default.highlight_theme }}",
